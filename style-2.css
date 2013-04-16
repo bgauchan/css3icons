@@ -1,0 +1,178 @@
+
+/* Instagram Icon */
+
+#instagramIcon
+{
+  background:#40749c; /* Old browsers */
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+	overflow: hidden;
+}
+
+#instagramIcon .innerTopBox
+{
+	height:30px;
+	width:95px;
+	background:#e4ebf1;
+	position:relative;
+	top:15%;
+	left:16%;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+
+#instagramIcon .innerTopBox .square
+{
+	height:15px;
+	width:15px;
+	background:#40749c;
+	position:relative;
+	top:25%;
+	left:73%;
+	border-radius:2px;
+}
+
+#instagramIcon .innerBottomBox
+{
+	height:50px;
+	width:79px;
+	background:#40749c;
+	position:relative;
+	top:14%;
+	left:16%;
+	border:8px solid #e4ebf1;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+#instagramIcon .innerBottomBox .circle
+{
+	height:45px;
+	width:45px;
+	background:#40749c;
+	position:relative;
+	top:-40%;
+	left:12%;
+	border-radius:90px;
+	border:8px solid #e4ebf1;
+}
+
+#layout .rows { height:200px;}
+
+/* Daily Tasks Icon */
+
+#dailyTasksIcon
+{
+	background:#98dada; 
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+	overflow: hidden;
+}
+
+#dailyTasksIcon table
+{
+	margin-top:3%;
+	margin-left:8px;
+	color:white;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:18px;
+}
+
+#dailyTasksIcon table td { padding-left:10px;}
+
+#dailyTasksIcon .whitebox
+{
+	background-color:#f9f8f7;
+	height:104px;
+	width:131px;
+	border-left:5px solid #f8f7f5;
+	border-right:5px solid #f8f7f5;
+	border-bottom:5px solid #f8f7f5;
+	box-shadow:0px -3px 5px #6eb5b7;
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+}
+
+#dailyTasksIcon .circle
+{
+	height:70px;
+	width:70px;
+	border-radius:50%;
+	border:8px solid #98dada;
+	position:relative;
+	left:23px;
+	top:12px;
+	border-left-color:lightgray;
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Safari and Chrome */
+	-o-transform: rotate(45deg); /* Opera */
+	-moz-transform: rotate(45deg); /* Firefox */	
+}
+
+#dailyTasksIcon .bellTop1
+{
+	height:8px;
+	width:8px;
+	background:#b1b1b1;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+	-o-transform: rotate(-45deg); /* Opera */
+	-moz-transform: rotate(-45deg); /* Firefox */
+	position:relative;
+	top:16px;	
+	left:17px;
+}
+
+#dailyTasksIcon .bellTop2
+{
+	height:20px;
+	width:23px;
+	background:#b1b1b1;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+	-o-transform: rotate(-45deg); /* Opera */
+	-moz-transform: rotate(-45deg); /* Firefox */
+	position:relative;
+	top:9px;	
+	left:17px;
+}
+
+#dailyTasksIcon .bellBottom1
+{
+	height:10px;
+	width:34px;
+	background:#b1b1b1;
+    border-radius:25px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+	-o-transform: rotate(-45deg); /* Opera */
+	-moz-transform: rotate(-45deg); /* Firefox */
+	position:relative;
+	top:4px;	
+	left:21px;
+}
+
+#dailyTasksIcon .bellBottom2
+{
+	height:6px;
+	width:15px;
+	background:#b1b1b1;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(135deg); /* Safari and Chrome */
+	-o-transform: rotate(-45deg); /* Opera */
+	-moz-transform: rotate(-45deg); /* Firefox */
+	position:relative;
+	top:5px;	
+	left:40px;
+}
