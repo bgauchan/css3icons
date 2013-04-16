@@ -1,0 +1,821 @@
+
+th a
+{
+  font-size:20px;
+	text-decoration:none;
+	color:black;
+	font-family:"Helvetica";
+}
+
+#pocketIcon 
+{
+	background:#eaeaea;
+	width:140px;
+	height:130px;
+	border-radius:25px;
+	border-right:1px solid #d2d2d2;
+	border-left:1px solid #d2d2d2;
+}
+
+#redPart
+{
+	width:60%;
+	height:55%;
+	background:#ee3e52;
+	position:relative;
+	top:24%;
+	left:19%;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:70px 60px;
+	border-bottom-right-radius:70px 60px;
+	border:1px solid gray;
+}
+
+#whiteLeftLine
+{
+	height:50%;
+	width:10px;
+	background:white;
+	-ms-transform: rotate(140deg); /* IE 9 */
+	-webkit-transform: rotate(140deg); /* Safari and Chrome */
+	-o-transform: rotate(140deg); /* Opera */
+	-moz-transform: rotate(140deg); /* Firefox */
+	border-radius:25px;
+	position: relative;
+	left:34%;
+	top:18px;
+}
+
+#whiteRightLine
+{
+	height:50%;
+	width:10px;
+	background:white;
+	-ms-transform: rotate(40deg); /* IE 9 */
+	-webkit-transform: rotate(40deg); /* Safari and Chrome */
+	-o-transform: rotate(40deg); /* Opera */
+	-moz-transform: rotate(40deg); /* Firefox */
+	border-radius:25px;
+	position: relative;
+	left:54%;
+	top:-25%;
+}
+
+#bottomShadow
+{
+	position: relative;
+	top:-46px;
+	left:1px;
+	z-index:-10000;
+	width:140px;
+	height:55px;
+	border-spacing:0px;
+	-webkit-box-shadow: 0 5px 5px #888;
+	-moz-box-shadow: 0 5px 5px #888;
+	box-shadow: 0 5px 5px #888;
+	border-radius:25px;
+}
+
+#col1
+{
+	width:50px;
+	border-bottom-left-radius:25px;
+	background:#74dcab;
+	box-shadow:inset 15px 15px 25px #33644e;
+}
+
+#col2
+{
+	width:39px;
+	background:#4bb2ae;
+}
+
+#col3
+{
+	width:39px;
+	background:#e03f51;
+}
+
+#col4
+{
+	width:50px;
+	border-bottom-right-radius:25px;
+	background:#eeaf3e;
+	box-shadow:inset -15px 15px 25px #755723;
+}
+
+/* Chrome Icon */
+
+#chromeIcon
+{
+	width:140px;
+	height:140px;
+	background:#4db849;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+}
+
+#redBox
+{
+   width: 40px; 
+   height: 0;
+   border-top: 80px solid #e73a33;
+   border-left: 35px solid transparent; 
+   border-right: 66px solid #e73a33;
+   border-radius:25px;
+}
+
+#yellowBox
+{
+   width: 0; 
+   height: 0px;
+   border-right: 40px solid #f4c713;
+   border-top: 54px solid #f4c713;
+   border-bottom: 50px solid #f4c713;
+   border-left:33px solid transparent;
+   border-bottom-right-radius:25px;
+   position:relative;
+   top:-44px;
+   left:33px;
+}
+
+#circle
+{
+   height:45%;
+   width:45%;
+   border-radius:90px;
+   background:#4382ae;
+   border:5px solid white;
+   position:relative;
+   top:-32%;
+   left:25%;
+}
+
+/* Reminder Icon */
+
+#reminderIcon
+{
+	background:#4b4b4b;
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+}
+
+#reminderIcon .whiteBackground
+{
+	height:85%;
+	width:85%;
+	background:#eceeed;
+	border-radius:18px;
+	position:relative;
+	left:8%;
+	top:7.5%;
+}
+
+#reminderIcon table
+{
+	font-size:12px;
+	color:#4b4b4b;
+	position:relative;
+	left:12.5%;
+	top:12.5%;
+	border:1pt solid #cacaca;
+}
+
+#reminderIcon td
+{
+	padding-left:5px;
+}
+
+#reminderIcon .checkmark:before
+{
+	content:"\2713 ";
+	font-size:22px;
+	font-weight:bolder;
+	color:#4b4b4b;
+}
+
+#reminderIcon .text
+{
+	height:5px;
+	width:40px;
+	background:#b4b4b4;
+}
+
+#reminderIcon .redLines
+{
+	height:89px;
+	width:2px;
+	border-left:2px solid #f23f55;
+	border-right:2px solid #f23f55;
+	position:relative;
+	left:42px;
+	top:-75px;
+}
+
+/* Skype Icon */
+
+#skypeIcon
+{
+	background:#00b3f2;
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+}
+
+#skypeIcon .bigWhiteCircle
+{
+	background:white;
+	border-radius:90px;
+	height:70%;
+	width:70%;
+	position:relative;
+	top:15%;
+	left:15%;
+}
+
+#skypeIcon .smallCircleOne
+{
+	background:white;
+	border-radius:90px;
+	height:60%;
+	width:60%;
+	position:relative;
+	top:-5%;
+	left:-8%;
+}
+
+#skypeIcon .smallCircleTwo
+{
+	background:white;
+	border-radius:90px;
+	height:60%;
+	width:60%;
+	position:relative;
+	top:-14%;
+	left:46%;
+}
+
+#skypeIcon .skype
+{
+	color:#00b3f2;
+	font-family:"Arial";
+	font-size:90px;
+	font-weight:bold;
+	position:relative;
+	left:20px;
+	top:-118px;
+}
+
+
+/* Accounts Icon */
+
+#accountsIcon
+{
+	background:#fffff;
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+}
+
+#accountsIcon .greenTop
+{
+	height:50px;
+	background:#469b02;
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+}
+
+#accountsIcon .greenTop #text
+{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Arial;
+	position:relative;
+	left:25px;
+	top:15px;
+}
+
+#accountsIcon .grayPipe
+{
+	height:15px;
+	width:115px;
+	background:#e1e0de;
+	border-radius: 90px;
+	margin-top:10px;
+	margin-left:12px;
+}
+
+#accountsIcon .greenPipe
+{
+	height:15px;
+	width:65px;
+	background:#469b02;
+	border-radius: 90px;
+}
+
+#accountsIcon .yellowPipe
+{
+	height:15px;
+	width:45px;
+	background:#e1e713;
+	border-radius: 90px;
+}
+
+#accountsIcon .redPipe
+{
+	height:15px;
+	width:90px;
+	background:#b40202;
+	border-radius: 90px;
+}
+
+/* Cloud Drive Icon */
+
+#cloudDriveIcon
+{
+	background: #2fb3e4; /* Old browsers */
+	width:140px;
+	height:115px;
+	border-radius:25px;
+	border-bottom:1px solid white;
+	box-shadow: 0 1px 2px -2px white;
+}
+
+#cloudDriveIcon .cloud
+{
+	background: white; 
+	width:100px;
+	height:40px;
+	border-radius:25px;
+	position: relative;
+	top:50px;
+	left:20px;
+	-webkit-box-shadow: 0 1px 1px #888;
+}
+
+#cloudDriveIcon .smallBump
+{
+	background: white; 
+	width:30px;
+	height:30px;
+	border-radius:90px;
+	position: relative;
+	top:-15px;
+	left:15px;
+}
+
+#cloudDriveIcon .bigBump
+{
+	background: white; 
+	width:50px;
+	height:50px;
+	border-radius:90px;
+	position: relative;
+	top:-60px;
+	left:35px;
+}
+
+.blueBottom
+{
+	background:#169ed0;
+	height:55px;
+	width:140px;
+	border-radius:25px;	
+	position: relative;
+	top:-48px;
+	left:0px;
+	z-index:-10000;
+}
+
+.whiteBottom
+{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 1%, #f9f9f9 75%, #e9e9e9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(75%,#f9f9f9), color-stop(100%,#e9e9e9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 1%,#f9f9f9 75%,#e9e9e9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 1%,#f9f9f9 75%,#e9e9e9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 1%,#f9f9f9 75%,#e9e9e9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 1%,#f9f9f9 75%,#e9e9e9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 ); /* IE6-9 */
+
+
+	height:68px;
+	width:138px;
+	border-radius:25px;	
+	position: relative;
+	top:-98px;
+	left:1px;
+	z-index:-20000;
+	-webkit-box-shadow: 0 2px 2px #888;
+	-moz-box-shadow: 0 2px 2px #888;
+	box-shadow: 0 2px 2px #888;
+}
+
+.greenCircle
+{
+	background:#dbee71;
+	height:8px;
+	width:8px;
+	border-radius:90px;
+	position: relative;
+	top:55px;
+	left:105px;
+}
+
+
+/* CardCase Icon */
+
+#cardcaseIcon
+{
+	background: #282828; /* Old browsers */
+	height:140px;
+	width:140px;
+	border-radius:25px;
+	box-shadow:0px 0px 5px gray;
+	overflow: hidden;
+}
+
+.stitched
+{
+	background:#282828;
+	height:120px;
+	width:120px;
+	border-radius:25px;
+	position:relative;
+	left:9px;
+	top:8px;
+	border:1px dashed #5e4d43;
+}
+
+.firstPocket
+{
+	width:100%;
+	height:30%;
+	background:#282828;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom:1px dashed #5e4d43;
+	overflow:hidden;
+}
+
+.secondPocket
+{
+	width:100%;
+	height:30%;
+	background:#282828;
+	border-bottom:1px dashed #5e4d43;
+	overflow:hidden;
+}
+
+.secondPocket .text
+{
+	color:white;
+	width:80%;
+	position: relative;
+	left:45%;
+	top:10%;
+	font-family:Helvetica;
+	font-size: 7px;
+	font-weight:bold;
+}
+
+
+.lastPocket
+{
+	width:100%;
+	height:35%;
+	background:#282828;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+
+.lastPocket .text
+{
+	background:#bf594b;
+	color:white;
+	width:80%;
+	text-align:center;
+	position: relative;
+	left:7%;
+	top:20%;
+	font-family:Helvetica;
+	font-size: 13px;
+	padding:4px;
+	font-weight:bold;
+}
+
+.lastPocket .bigCircle1
+{
+	background:#565459;
+	width:6px;
+	height:6px;
+	border-radius:90px;
+	position:relative;
+	top:-7px;
+	left:18px;
+	border:1px solid #282828;
+}
+
+.lastPocket .bigCircle2
+{
+	background:#565459;
+	width:6px;
+	height:6px;
+	border-radius:90px;
+	position:relative;
+	top:-15px;
+	left:96px;
+	border:1px solid #282828;
+}
+
+.lastPocket .smallCircle1
+{
+	background:#282828;
+	width:3px;
+	height:3px;
+	border-radius:90px;
+	position:relative;
+	top:1pt;
+	left:1pt;
+}
+
+.lastPocket .smallCircle2
+{
+	background:#282828;
+	width:3px;
+	height:3px;
+	border-radius:90px;
+	position:relative;
+	top:1.5px;
+	left:1.5px;
+}
+
+.yellowCreditCard
+{
+	background:#ffc056;
+	height:40px;
+	width:105px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	position:relative;
+	top:10px;
+	left:8px;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+	-webkit-transform: rotate(-5deg); /* Safari and Chrome */
+	-o-transform: rotate(-5deg); /* Opera */
+	-moz-transform: rotate(-5deg); /* Firefox */
+}
+
+.money1
+{
+	background:#afce8a;
+	width:75px;
+	height:15px;
+	font-size:8px;
+	color:#5c7939;
+	font-weight:bold;
+	padding-left:2px;
+	position:relative;
+	left:13px;
+	top:8px;
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Safari and Chrome */
+	-o-transform: rotate(10deg); /* Opera */
+	-moz-transform: rotate(10deg); /* Firefox */
+	border:1px solid #5c7939;
+	font-family:7px;
+}
+
+
+.money2
+{
+	background:#afce8a;
+	width:75px;
+	height:15px;
+	font-size:8px;
+	color:#5c7939;
+	font-weight:bold;
+	padding-left:2px;
+	position:relative;
+	left:11px;
+	top:-9px;
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(5deg); /* Safari and Chrome */
+	-o-transform: rotate(5deg); /* Opera */
+	-moz-transform: rotate(5deg); /* Firefox */
+	border:1px solid #5c7939;
+	z-index:-100000;
+}
+
+.blueDebitCard
+{
+	background:#01a6d6;
+	height:22px;
+	width:105px;
+	position:relative;
+	top:18px;
+	left:7px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(3deg); /* Safari and Chrome */
+	-o-transform: rotate(5deg); /* Opera */
+	-moz-transform: rotate(5deg); /* Firefox */
+}
+
+.debitCard
+{
+	font-size:7px;
+	font-weight:bold;
+	color:white;
+	font-family:Arial;
+	position:relative;
+	left:5px;
+	top:-2px;
+}
+
+.chaseCard
+{
+	font-size:10px;
+	font-weight:bold;
+	color:white;
+	font-family:Helvetica;
+	position:relative;
+	left:13px;
+	top:-2px;
+}
+
+.blueDebitCard .logoCircle
+{
+	position:relative;
+	top:-16px;
+	left:92px;
+	background:white;
+	border-radius:90px;
+	height:10px;
+	width:10px;
+}
+
+.blueDebitCard .logoSquare
+{
+	position:relative;
+	top:3px;
+	left:3px;
+	background:#01a6d6;
+	height:4px;
+	width:4px;
+}
+
+/* Restaurant Finder */
+
+#restaurantIcon 
+{
+	background:#68300f;
+	height:130px;
+	width:140px;
+	border-radius:25px;
+	overflow:hidden;
+	box-shadow:0px 0px 5px gray;
+}
+
+#restaurantIcon .topCloth
+{
+	background-color:white;
+	background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, .5) 50%, transparent 50%), -webkit-linear-gradient(rgba(200, 0, 0, .5) 50%, transparent 50%);
+	background-size:12px 12px;
+	height:80px;
+	width:140px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	overflow:hidden;
+}
+
+#restaurantIcon .bottomCloth
+{
+	background-color:white;
+	background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, .5) 50%, transparent 50%), -webkit-linear-gradient(rgba(200, 0, 0, .5) 50%, transparent 50%);
+	background-size:12px 12px;
+	width:26px; 
+	height:60px; 
+	font-size:0px;
+	line-height:0px;
+	border-top:64px solid transparent;
+	border-right:54px solid #643e2b;
+	border-bottom-right-radius:25px;
+	border-left:60px solid #643e2b;
+	border-bottom-left-radius:25px;
+}
+
+#restaurantIcon .plate
+{
+	background:white;
+	height:105px;
+	width:105px;
+	border-radius:90px;
+	position:relative;
+	top:-194px;
+	left:18px;
+	border:1px solid #d2d2d2;
+}
+
+#restaurantIcon .plate .inside
+{
+	background:white;
+	height:75px;
+	width:75px;
+	border-radius:90px;
+	position:relative;
+	top:15px;
+	left:15px;
+	box-shadow:inset 0px 0px 10px #d2d2d2;
+}
+
+#restaurantIcon .plate .inside .arrow
+{
+	position:relative;
+	top:-5px;
+	left:5px;
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(5deg); /* Safari and Chrome */
+	-o-transform: rotate(5deg); /* Opera */
+	-moz-transform: rotate(5deg); /* Firefox */
+}
+
+#restaurantIcon .plate .inside .leftArrow
+{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 14px solid #b00000;
+	-ms-transform:scaleX(-1); /* IE 9 */
+	-webkit-transform:scaleX(-1); /* Safari and Chrome */
+	-o-transform:scaleX(-1); /* Opera */
+	-moz-transform:scaleX(-1); /* Firefox */
+}
+
+#restaurantIcon .plate .inside .leftArrowWrapper
+{
+	-ms-transform:rotate(-32deg); /* IE 9 */
+	-webkit-transform:rotate(-32deg); /* Safari and Chrome */
+	-o-transform:rotate(-32deg); /* Opera */
+	-moz-transform:rotate(-32deg); /* Firefox */
+	position:relative;
+	top:25px;
+	left:10px;
+}
+
+#restaurantIcon .plate .inside .rightArrow
+{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 14px solid #b00000;
+	-ms-transform: rotate(105deg); /* IE 9 */
+	-webkit-transform: rotate(105deg); /* Safari and Chrome */
+	-o-transform: rotate(105deg); /* Opera */
+	-moz-transform: rotate(105deg); /* Firefox */
+	position:relative;
+	top:20px;
+	left:16px;
+}
+
+.brownBottom
+{
+	background:#261305;
+	height:68px;
+	width:138px;
+	border-radius:25px;	
+	position: relative;
+	top:-56px;
+	left:1px;
+	z-index:-20000;
+	-webkit-box-shadow: 0 2px 2px #888;
+	-moz-box-shadow: 0 2px 2px #888;
+	overflow:hidden;
+	box-shadow:0px 0px 5px gray;
+}
+
+.cloth
+{
+	background-color:white;
+	background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, .5) 50%, transparent 50%), -webkit-linear-gradient(rgba(200, 0, 0, .5) 50%, transparent 50%);
+	background-size:12px 12px;
+	width:0px; 
+	height:0px; 
+	font-size:0px;
+	line-height:0px;
+	border-top:24px solid transparent;
+	border-right:26px solid #261305;
+	border-left:27px solid #261305;
+	position:relative;
+	top:55px;
+	left:45px;
+}
